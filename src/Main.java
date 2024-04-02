@@ -3,27 +3,27 @@ public class Main {
         System.out.println("Task 1");
         byte age = 17;
         if (age >= 18) {
-            System.out.println("Вы достигли возраста совершеннолетия!");
+            System.out.println("Если Ваш возраст равен " + age + ", Вы достигли возраста совершеннолетия!");
         } else {
-            System.out.println("Вы еще не достигли возраста совершеннолетия, нужно немного подождать");
+            System.out.println("Если Ваш возраст равен " + age + ", Вы еще не достигли возраста совершеннолетия, нужно немного подождать");
         }
         System.out.println("Task 2");
-        byte Temper = -5;
-        if (Temper <= 5) {
-            System.out.println("На улице холодно, нужно надеть шапку");
+        byte temper = -5;
+        if (temper <= 5) {
+            System.out.println("При температуре " + temper + " градусов на улице холодно, нужно надеть шапку");
         } else {
-            System.out.println("На улице тепло, можно идти без шапки");
+            System.out.println("При температуре " + temper + " градусов на улице тепло, можно идти без шапки");
         }
         System.out.println("Task 3");
-        short Speed = 80;
-        if (Speed >= 60) {
-            System.out.println("Скорость превышена, ожидайте штраф");
+        short speed = 80;
+        if (speed >= 60) {
+            System.out.println("Если скорость " + speed + "км/ч, то ожидайте штраф");
         } else {
-            System.out.println("Скорость не превышена, на сегодня без штрафов");
+            System.out.println("Если скорость " + speed + "км/ч, то на сегодня без штрафов");
         }
         System.out.println("Task 4");
         byte age2 = 23;
-        if (age2 > 2) {
+        if (age2 >= 2) {
             if (age2 <= 6) {
                 System.out.println("Если возраст человека равен " + age2 + ", то ему нужно в детсад");
             } else if (age2 <= 17) {
@@ -65,10 +65,10 @@ public class Main {
                 System.out.println("Наибольшее число " + three);
             }
         } else if (two > three) {
-                System.out.println("Наибольшее число " + two);
-            } else {
-                System.out.println("Наибольшее число " + three);
-            }
+            System.out.println("Наибольшее число " + two);
+        } else {
+            System.out.println("Наибольшее число " + three);
+        }
 
     }
 }
