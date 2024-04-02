@@ -52,7 +52,7 @@ public class Main {
         } else if (placeTaken < 102) {
             System.out.println("Вы можете поехать стоя");
         } else {
-            System.out.println("Все места заняты");
+            System.out.println("Все места заняты");//
         }
         System.out.println("Task 7");
         int one = 52;
@@ -60,7 +60,7 @@ public class Main {
         int three = 55;
         int max;
         if (one > two) {
-            max = one
+            max = one;
         } else {
             max = two;
         }
