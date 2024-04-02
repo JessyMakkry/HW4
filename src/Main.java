@@ -58,17 +58,17 @@ public class Main {
         int one = 52;
         int two = 322;
         int three = 55;
+        int max;
         if (one > two) {
-            if (one > three) {
-                System.out.println("Наибольшее число " + one);
-            } else {
-                System.out.println("Наибольшее число " + three);
-            }
-        } else if (two > three) {
-            System.out.println("Наибольшее число " + two);
+            max = one
         } else {
-            System.out.println("Наибольшее число " + three);
+            max = two;
         }
-
+        if (three>max) {
+           System.out.println("Наибольшее число " + three);
+        }
+        else {
+            System.out.println("Наибольшее число " + max);
+        }
     }
 }
